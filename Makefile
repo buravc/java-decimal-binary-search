@@ -7,7 +7,7 @@ build:
 	javac -d $(OUT) $(SRC)
 
 run: build
-	java -cp $(OUT) $(MAIN)
+	java -Xms4g -Xmx12g -cp $(OUT) $(MAIN)
 
 clean:
 	rm -rf $(OUT)

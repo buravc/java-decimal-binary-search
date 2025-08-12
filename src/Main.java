@@ -4,8 +4,8 @@ import java.util.Random;
 
 public class Main {
 
-    public static final int DEFAULT_SIZE = 1_000_000_000;
-    public static final int DEFAULT_TIMES_TO_RUN_SEARCH = 100_000;
+    public static final int DEFAULT_SIZE = 100_000_000;
+    public static final int DEFAULT_TIMES_TO_RUN_SEARCH = 5_000;
 
     public static void main(String[] args) {
         var stopWatch = new NanoStopwatch();
